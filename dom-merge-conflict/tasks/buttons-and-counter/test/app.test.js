@@ -43,7 +43,7 @@ describe("button and counter", () => {
       button.click();
       button.click();
       button.click();
-
+      
       expect(getByTestId(container, "counter")).toHaveTextContent(/^-3$/);
     });
 
